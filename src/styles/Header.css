@@ -1,0 +1,50 @@
+.header {
+  background-color: blueviolet;
+  display: flex;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.leftNav {
+  display: flex;
+  flex: 1;
+  background-color: grey;
+  /* default justify-content is left, so we do not need justify-content here */
+}
+.item1 {
+  background-color: aqua;
+}
+
+.item2 {
+  background-color: bisque;
+  margin-left: 10px;
+}
+
+.item3 {
+  background-color: rgb(229, 255, 0);
+  margin-left: 10px;
+}
+.rightNav {
+  display: flex;
+  justify-content: flex-end;
+
+  /* default justify-content is left, so we do need it to move these items to the right */
+  flex: 1;
+  background-color: black;
+}
+
+.item4 {
+  background-color: aqua;
+  margin-right: 10px;
+}
+
+.item5 {
+  background-color: rgb(0, 217, 255);
+  margin-right: 10px;
+}
+
+.item6 {
+  background-color: rgb(0, 255, 81);
+}
